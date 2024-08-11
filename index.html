@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test FE Developer_Nguyen Tuan Anh</title>
+    <link rel="stylesheet" href="style/variable.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-bar">
+        <div class="container">
+          <p class="notification">
+            You are a student and students get 20% discount.
+            <span
+              style="
+                font-weight: 600;
+                text-decoration: underline;
+                cursor: pointer;
+                color: #212529;
+              "
+              >Learn More</span
+            >
+          </p>
+          <nav class="top-links">
+            <a href="#" class="top-link">Store Locator</a>
+            <a href="#" class="top-link">Order Tracking</a>
+            <a href="#" class="top-link">FAQs</a>
+            <div style="color: #cdcdcd; font-weight: 600">|</div>
+            <span class="divider"></span>
+            <div class="language-currency">
+              <div class="dropdown">
+                <span class="dropdown-text">English</span>
+                <span class="dropdown-icon"></span>
+              </div>
+              <div class="dropdown">
+                <span class="dropdown-text">USD</span>
+                <span class="dropdown-icon"></span>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="border-line"></div>
+      <div class="main-header">
+        <div class="container">
+          <img src="/image/Logo.svg" alt="Company Logo" class="logo" />
+          <form class="search-bar" role="search">
+            <div class="category-select">
+              <span>All Categories</span>
+              <div style="color: #cdcdcd; font-weight: 600">|</div>
+            </div>
+            <input
+              type="search"
+              class="search-input"
+              placeholder="Search in 200+ products..."
+              aria-label="Search products"
+            />
+            <button type="submit" class="search-button">Search</button>
+          </form>
+          <div class="header-actions">
+            <div class="action-item">
+              <img src="/image/icon_account.svg" alt="" class="action-icon" />
+              <div class="action-text">
+                <span class="action-label">Login</span>
+                <span class="action-value">Account</span>
+              </div>
+            </div>
+            <img src="/image/Vector.svg" alt="Wishlist" class="action-icon" />
+            <div
+              style="
+                position: absolute;
+                margin-top: -20px;
+                margin-left: 130px;
+                width: 18px;
+                height: auto;
+                background-color: #dc323c;
+                color: white;
+                text-align: center;
+                font-size: 10px;
+                padding: 4px 1px;
+                border-radius: 50%;
+                margin-right: 100px;
+              "
+            >
+              2
+            </div>
+            <div class="action-item">
+              <img src="/image/cartsvg.svg" alt="" class="action-icon" />
+              <div
+                style="
+                  position: absolute;
+                  margin-top: -20px;
+                  margin-left: 12px;
+                  width: 18px;
+                  height: auto;
+                  background-color: #dc323c;
+                  color: white;
+                  text-align: center;
+                  font-size: 10px;
+                  padding: 4px 1px;
+                  border-radius: 50%;
+                  margin-right: 100px;
+                "
+              >
+                2
+              </div>
+              <div class="action-text">
+                <span class="action-label">Your Cart</span>
+                <span class="action-value">$280.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="nav-bar">
+        <div class="container">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              Home <span class="nav-icon"><img src="/image/dow.svg" /></span>
+            </li>
+            <li class="nav-item">
+              Shop <span class="nav-icon"><img src="/image/dow.svg" /></span>
+            </li>
+            <li class="nav-item">
+              Product <span class="nav-icon"><img src="/image/dow.svg" /></span>
+            </li>
+            <li class="nav-item">
+              Page <span class="nav-icon"><img src="/image/dow.svg" /></span>
+            </li>
+            <li class="nav-item">
+              Blog <span class="nav-icon"><img src="/image/dow.svg" /></span>
+            </li>
+            <li class="nav-item">Contact Us</li>
+            <li class="nav-item" style="color: #dc323c">Buy Uminex!</li>
+          </ul>
+          <div class="special-offer">
+            <img src="/image/icon_sale.svg" class="offer-icon" />
+            <span>Sale $20 Off Your First Order.</span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="offer-container">
+        <div class="slider-banner-wrapper">
+          <div class="slider-container">
+            <div class="slider">
+              <div class="slider-content">
+                <img src="/image/banner.svg" class="slider-image" />
+                <div class="slider-controls">
+                  <div class="slider-text-controls">
+                    <div class="prev-button">
+                      <img class="button-bg" src="/image/button prev.svg" />
+                    </div>
+                    <div class="slider-text">
+                      <h2 class="slider-title">Gamepad console</h2>
+                      <h3 class="slider-subtitle">
+                        Today's Offer <br />
+                        Skin <span style="color: #17f084">Gamepad</span> 2022
+                      </h3>
+                      <button class="shop-now-button">Shop Now</button>
+                    </div>
+                  </div>
+                  <div class="next-button">
+                    <img class="button-bg" src="/image/button next.svg" />
+                  </div>
+                </div>
+                <div
+                  class="slider-dots"
+                  role="tablist"
+                  aria-label="Slider navigation"
+                ></div>
+              </div>
+            </div>
+            <div class="banner">
+              <div class="banner-item">
+                <img
+                  src="/image/banner-sm1.svg"
+                  alt="New Phone Pro"
+                  class="banner-image"
+                />
+                <h3 class="banner-title">
+                  <span style="color: #212529">Trending</span> <br />
+                  New Phone Pro
+                  <p class="banner-subtitle">Save 20% On Products</p>
+                </h3>
+              </div>
+              <div class="banner-item">
+                <img
+                  src="/image/banner-sm2.svg"
+                  alt="MateBook Pro 2022"
+                  class="banner-image"
+                />
+                <h3 class="banner-title">
+                  Top Product <br />
+                  MateBook Pro 2022
+                  <p class="banner-subtitle">Top Quality Products</p>
+                </h3>
+              </div>
+              <div class="banner-item">
+                <img
+                  src="/image/banner-sm3.svg"
+                  alt="iPad Pro"
+                  class="banner-image"
+                />
+                <h3 class="banner-title">
+                  iPad Pro <br />
+                  Up To 20% Off
+                  <p class="banner-subtitle">20 Days Return Products</p>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="todays-offer">
+          <div class="offer-grid">
+            <div class="offer-column">
+              <div class="offer-row">
+                <div class="offer-item">
+                  <div
+                    class="featured-offer-sale"
+                    style="
+                      position: absolute;
+                      margin-top: 20px;
+                      margin-left: -130px;
+                    "
+                  >
+                    -20%
+                  </div>
+                  <img
+                    src="/image/Apple iPhone 12 Pro Max 128GB - Unlocked.svg"
+                    class="offer-image"
+                  />
+                  <div class="offer-more">
+                    <h4 class="offer-title">
+                      Apple iPhone 12 Pro Max 128GB - Unlocked
+                    </h4>
+                    <div class="offer-rating">
+                      <div
+                        class="offer-stars"
+                        aria-label="4 out of 5 stars"
+                      ></div>
+                      <span style="color: #8d979e">
+                        <img src="/image/rate.svg" /> (68)</span
+                      >
+                    </div>
+                    <div class="offer-price" style="color: #dc323c">
+                      $128.00 <span class="offer-price-old">$12.00</span>
+                    </div>
+                    <div class="offer-stock">
+                      <span style="color: #008a00">✔ In stock</span>
+                      <span class="stock-text">
+                        <span style="font-weight: 600; color: #212529">82</span>
+                        products</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="offer-item">
+                  <img src="/image/macbook.svg" class="offer-image" />
+                  <div class="offer-more">
+                    <h4 class="offer-title">
+                      Apple Watch Aluminum Case Pride Edition
+                    </h4>
+                    <div class="offer-rating">
+                      <div
+                        class="offer-stars"
+                        aria-label="4 out of 5 stars"
+                      ></div>
+                      <span style="color: #8d979e">
+                        <img src="/image/rate.svg" />(68)</span
+                      >
+                    </div>
+                    <div class="offer-price">$1028.00</div>
+                    <div class="offer-stock">
+                      <span style="color: #dc323c">✔ Only 2 left in stock</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="offer-item">
+                  <img src="/image/samsung.svg" class="offer-image" />
+                  <div class="offer-more">
+                    <h4 class="offer-title">
+                      Apple iPhone 12 Pro Max 128GB - Unlocked
+                    </h4>
+                    <div class="offer-rating">
+                      <div
+                        class="offer-stars"
+                        aria-label="4 out of 5 stars"
+                      ></div>
+                      <span style="color: #8d979e">
+                        <img src="/image/rate.svg" />(68)</span
+                      >
+                    </div>
+                    <div class="offer-price" style="color: #dc323c">
+                      $128.00 <span class="offer-price-old">$12.00</span>
+                    </div>
+                    <div class="offer-stock">
+                      <span style="color: #008a00">✔ In stock</span>
+                      <span class="stock-text">
+                        <span style="font-weight: 600; color: #212529">82</span>
+                        products</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="offer-item">
+                  <div
+                    class="featured-offer-sale"
+                    style="
+                      position: absolute;
+                      margin-top: 20px;
+                      margin-left: -130px;
+                      background-color: #008a00;
+                    "
+                  >
+                    NEW
+                  </div>
+                  <img src="/image/pride.svg" class="offer-image" />
+                  <div class="offer-more">
+                    <h4 class="offer-title">
+                      Apple Watch Aluminum Case Pride Edition
+                    </h4>
+                    <div class="offer-rating">
+                      <div
+                        class="offer-stars"
+                        aria-label="4 out of 5 stars"
+                      ></div>
+                      <span style="color: #8d979e">
+                        <img src="/image/rate.svg" />(68)</span
+                      >
+                    </div>
+                    <div class="offer-price">$1028.00</div>
+                    <div class="offer-stock">
+                      <span style="color: #dc323c">✔ Only 2 left in stock</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="featured-offer">
+              <div class="featured-offer-title">TODAY'S OFFER</div>
+              <div class="featured-offer-divider"></div>
+              <div class="featured-offer-image">
+                <div class="offer-flex">
+                  <div class="featured-offer-sale">-20%</div>
+                  <img class="featured-offer-gift" src="/image/gift.svg" />
+                </div>
+                <img src="/image/iphone13.svg" />
+              </div>
+              <div class="featured-offer-product">
+                Apple iPhone 13 Pro Max 128GB Gold Fully Unlocked
+              </div>
+              <div class="featured-offer-rating">
+                <span class="featured-offer-stars">★★★★★</span>
+                <span class="featured-offer-reviews">29 reviews</span>
+              </div>
+              <div class="offer-price" style="color: #dc323c">
+                $128.00 <span class="offer-price-old">$12.00</span>
+              </div>
+              <div class="featured-offer-countdown">
+                Hurry up! Offer ends in:
+              </div>
+              <div class="countdown-timer">
+                <div class="countdown-unit" style="margin: 0 5px 0 0">826</div>
+                <span class="countdown-separator">:</span>
+                <div class="countdown-unit">29</div>
+                <span class="countdown-separator">:</span>
+                <div class="countdown-unit">20</div>
+                <span class="countdown-separator">:</span>
+                <div class="countdown-unit">08</div>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 85%"></div>
+              </div>
+              <div class="progress-text">
+                Sold: <span style="font-weight: 700">620/896</span> products
+              </div>
+            </div>
+            <div class="offer-column">
+              <div class="offer-row">
+                <div class="offer-item">
+                  <img src="/image/watch.svg" class="offer-image" />
+                  <div class="offer-more">
+                    <h4 class="offer-title">
+                      Apple iPhone 12 Pro Max 128GB - Unlocked
+                    </h4>
+                    <div class="offer-rating">
+                      <div
+                        class="offer-stars"
+                        aria-label="4 out of 5 stars"
+                      ></div>
+                      <span style="color: #8d979e">
+                        <img src="/image/rate.svg" />(68)</span
+                      >
+                    </div>
+                    <div class="offer-price">$289.00</div>
+                    <div class="offer-stock">
+                      <span style="color: #008a00">✔ In stock</span>
+                      <span class="stock-text">
+                        <span style="font-weight: 600; color: #212529">82</span>
+                        products</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="offer-item">
+                  <div
+                    class="featured-offer-sale"
+                    style="
+                      position: absolute;
+                      margin-top: 20px;
+                      margin-left: -130px;
+                    "
+                  >
+                    -20%
+                  </div>
+                  <img src="/image/plick.svg" class="offer-image" />
+                  <div class="offer-more">
+                    <h4 class="offer-title">
+                      Apple Watch Aluminum Case Pride Edition
+                    </h4>
+                    <div class="offer-rating">
+                      <div
+                        class="offer-stars"
+                        aria-label="4 out of 5 stars"
+                      ></div>
+                      <span style="color: #8d979e">
+                        <img src="/image/rate.svg" />(68)</span
+                      >
+                    </div>
+                    <div class="offer-price" style="color: #dc323c">
+                      $128.00 <span class="offer-price-old">$12.00</span>
+                    </div>
+                    <div class="offer-stock">
+                      <span style="color: #dc323c">✔ Only 2 left in stock</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="offer-item">
+                  <div
+                    class="featured-offer-sale"
+                    style="
+                      position: absolute;
+                      margin-top: 20px;
+                      margin-left: -130px;
+                    "
+                  >
+                    -20%
+                  </div>
+                  <img src="/image/gold.svg" class="offer-image" />
+                  <div class="offer-more">
+                    <h4 class="offer-title">
+                      Apple iPhone 12 Pro Max 128GB - Unlocked
+                    </h4>
+                    <div class="offer-rating">
+                      <div
+                        class="offer-stars"
+                        aria-label="4 out of 5 stars"
+                      ></div>
+                      <span style="color: #8d979e">
+                        <img src="/image/rate.svg" />(68)</span
+                      >
+                    </div>
+                    <div class="offer-price" style="color: #dc323c">
+                      $128.00 <span class="offer-price-old">$12.00</span>
+                    </div>
+                    <div class="offer-stock">
+                      <span style="color: #008a00">✔ In stock</span>
+                      <span class="stock-text">
+                        <span style="font-weight: 600; color: #212529">82</span>
+                        products</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="offer-item">
+                  <img src="/image/blue.svg" class="offer-image" />
+                  <div class="offer-more">
+                    <h4 class="offer-title">
+                      Apple Watch Aluminum Case Pride Edition
+                    </h4>
+                    <div class="offer-rating">
+                      <div
+                        class="offer-stars"
+                        aria-label="4 out of 5 stars"
+                      ></div>
+                      <span style="color: #8d979e">
+                        <img src="/image/rate.svg" />(68)</span
+                      >
+                    </div>
+                    <div class="offer-price">$1028.00</div>
+                    <div class="offer-stock">
+                      <span style="color: #dc323c">✔ Only 2 left in stock</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-divider"></div>
+      <div class="footer-content">
+        <div class="footer-sections">
+          <section class="contact-info">
+            <h3 class="section-title">About The Store</h3>
+            <p>Got Question? Call us 24/7</p>
+            <p class="contact-phone">+222-1800-2628</p>
+            <p class="contact-details">
+              268 St, South New York/NY 98944, United States<br />
+              Customersupport@example.com<br />
+              Info@example.com
+            </p>
+          </section>
+          <section class="info-section">
+            <h3 class="section-title">Information</h3>
+            <nav class="info-links">
+              <a href="#">Blog Us</a><br />
+              <a href="#">About Us</a><br />
+              <a href="#">Delivery Information</a><br />
+              <a href="#">Privacy Policy</a><br />
+              <a href="#">FeedBack</a>
+            </nav>
+          </section>
+          <section class="quick-links">
+            <h3 class="section-title">Quick Links</h3>
+            <nav class="info-links">
+              <a href="#">Store Location</a><br />
+              <a href="#">Orders Tracking</a><br />
+              <a href="#">FAQs</a>
+            </nav>
+          </section>
+          <section class="newsletter-section">
+            <h3 class="section-title">Sign up to Newsletter</h3>
+            <p class="newsletter-description">
+              Join 20.000+ subscribers and get a new discount coupon on every
+              Saturday. Updates information on Sales and Offers.
+            </p>
+            <form class="newsletter-form">
+              <label for="email-input" class="visually-hidden"
+                >Your email address</label
+              >
+              <input
+                type="email"
+                id="email-input"
+                class="newsletter-input"
+                placeholder="Your email address..."
+                aria-label="Your email address"
+              />
+              <button type="submit" class="subscribe-button">Subscribe</button>
+            </form>
+            <p class="subscription-note">
+              Subscribe for Uminex and get 20% off your first purchase.
+            </p>
+          </section>
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-bottom">
+          <p class="copyright">
+            Copyright ©
+            <span style="font-weight: 600; color: rgba(43, 56, 209, 1)"
+              >Uminex</span
+            >
+            all rights reserved. Powered by
+            <span style="font-weight: 600; color: rgba(43, 56, 209, 1)"
+              >Blueskytechco.</span
+            >
+          </p>
+          <div class="payment-section">
+            <p style="font-family: Bai Jamjuree, sans-serif">Payment Method:</p>
+            <img src="/image/payment.svg" class="payment-methods" />
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
